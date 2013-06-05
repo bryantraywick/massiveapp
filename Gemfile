@@ -13,6 +13,8 @@ gem 'twitter-bootstrap-rails'
 gem 'whenever', :require => false
 gem 'paper_trail'
 
+gem 'moonshine', :git => 'git://github.com/bryantraywick/moonshine.git', :branch => 'gem'
+
 group :assets do
   gem 'sass-rails', '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
@@ -20,6 +22,5 @@ group :assets do
 end
 
 group :development do
-  gem 'moonshine', :git => 'git://github.com/bryantraywick/moonshine.git', :branch => 'gem'
   gem 'capistrano'
 end
