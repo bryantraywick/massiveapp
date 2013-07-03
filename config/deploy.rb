@@ -1,1 +1,3 @@
-server 'traywick.railsmachine.managedmachine.com', :app, :web, :db, :primary => true
+set :stages, %w(production staging)
+set :default_stage, "staging"
+require 'capistrano/ext/multistage'
