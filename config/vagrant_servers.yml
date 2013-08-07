@@ -1,0 +1,12 @@
+---
+- :name: traywick
+  :hostname: traywick.massiveapp.rm
+  :internal_hostname: traywick.massiveapp.local.rm
+  :ip: 192.168.50.3
+  :internal_ip: 10.0.10.3
+  :roles:
+  - :app
+  - :web
+  - :db
+  :options:
+    :primary: true

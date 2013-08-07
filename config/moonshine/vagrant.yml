@@ -1,0 +1,16 @@
+---
+:domain: massiveapp.rm
+:domain_aliases:
+- www.massiveapp.rm
+:user: vagrant
+:rails_env: vagrant
+:dnsmasq:
+  :records:
+    traywick.massiveapp.rm: 192.168.50.3
+    traywick.massiveapp.local.rm: 10.0.10.3
+:app_servers:
+- traywick.massiveapp.rm
+:web_servers:
+- traywick.massiveapp.rm
+:db_servers:
+- traywick.massiveapp.rm

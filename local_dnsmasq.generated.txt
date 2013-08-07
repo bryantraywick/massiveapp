@@ -1,0 +1,4 @@
+# traywick
+address=/traywick.massiveapp.rm/192.168.50.3
+address=/traywick.massiveapp.local.rm/10.0.10.3
+
